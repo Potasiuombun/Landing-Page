@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 .flex-container {
-
+  font-size: 0;
 }
 
 /* Header */
@@ -16,14 +16,17 @@
   flex:1 1 0%;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 24px;
   font-weight: bold;
+  color:#F9FAF8
 }
 .flex-container .header .right{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   flex:1 1 0%;
+  font-size: 18px;
+  color:#E5E7EB;
 }
 .flex-container .header .right .headlink{
 }
@@ -32,17 +35,60 @@
 /* Section 1 */
 .flex-container .upperContent{
   background: #1F2937;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex:1 1 0%;
 }
-.flex-container .upperContent .left{
-}
-.flex-container .upperContent .left .title {
-}
-.flex-container .upperContent .left .content{
-}
-.flex-container .upperContent .left .signUp{
+.flex-container .upperContent .middle{
+  margin: 10%;
+  flex-direction: row;
 }
 
-.flex-container .upperContent .right{
+.flex-container .upperContent .middle .left{
+  flex-direction: column;
+  flex:0.5 0.5 0%;
+}
+.flex-container .upperContent .middle .left .title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  padding: 0px;
+  margin: 0px;
+}
+
+.flex-container .upperContent .middle .left .content{
+  font-weight: 900;
+  font-size: 18px;
+  color:#E5E7EB;
+  padding:0px;
+  margin:0px;
+
+}
+.flex-container .upperContent .middle .left .signUp{
+  background: #1F2937;
+}
+.flex-container .upperContent .middle .left .signUp .button{
+  background-color:#3882f6;
+  padding:10px;
+  border-radius:10px;
+  font-size: 14px;
+  font-weight: 600px;
+  color:#E5E7EB;
+  width: 150px;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container .upperContent .middle .right{
+  flex:0.5 0.5 0%;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-width: 70%;
+
 }
 
 /* Section 2 */
@@ -85,11 +131,24 @@
 .flex-container .lowestContent .group .right .button {
 }
 .flex-container .lowestContent .group .left .cTA {
-  
+  background-color:#3882f6;
 }
 .flex-container .lowestContent .group .left .cTAtext{
 }
 
 /* Footer */
 .flex-container .footer{
+}
+
+h1{
+  margin:0px;
+  padding:0px;
+}
+h2{
+  margin:0px;
+  padding:0px;
+}
+h3{
+  margin:0px;
+  padding:0px;
 }
