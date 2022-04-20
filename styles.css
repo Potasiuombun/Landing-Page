@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+.flex-container {
+
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+
+}
+
+.flex-container .header {
+
+}
+.flex-container .header .left{
+
+}
+.flex-container .header .right{
+
+}
+.flex-container .header .right .headlink{
+}
+.flex-container .upperContent{
+  background: #1F2937;
+}
+.flex-container .upperContent .left{
+  background: #1F2937;
+}
+.flex-container .upperContent .left .title {
+}
+.flex-container .upperContent .left .content{
+}
+.flex-container .upperContent .left .signUp{
+}
+
+.flex-container .upperContent .right{
+}
+.flex-container .midContent{
+}
+
+ .flex-container .midContent .upper {
+ }
+ .flex-container .midContent .mid{
+ }
+ .flex-container .midContent .mid .rectangles{
+ }
+ .flex-container .midContent .mid .rectangles .upper{
+ }
+ .flex-container .midContent .mid .rectangles .lower{
+ }
+ .flex-container .midContent .lower{
+ }
+.flex-container .lowerContent{
+}
+.flex-container .lowerContent .group{
+}
+.flex-container .lowerContent .group .quote{
+}
+.flex-container .lowerContent .group .quotePerson{
+}
+.flex-container .lowestContent{
+}
+.flex-container .lowestContent .group{
+}
+.flex-container .lowestContent .group .left{
+
+}
+.flex-container .lowestContent .group .right{
+}
+.flex-container .lowestContent .group .right .button {
+}
+.flex-container .lowestContent .group .left .cTA {
+  
+}
+.flex-container .lowestContent .group .left .cTAtext{
+}
+.flex-container .footer{
+}
