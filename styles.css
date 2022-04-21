@@ -136,34 +136,77 @@ img{
  /* Section 3 */
 .flex-container .lowerContent{
   background: #E5E7EB;
+  padding: 100px 350px;
 }
 .flex-container .lowerContent .group{
 }
 .flex-container .lowerContent .group .quote{
+  font-size: 34px;
+  color:#1F2937;
+  font-style: italic;
+  font-weight: 100;
+  text-align: left;
+}
+.flex-container .lowerContent .group .quote .h2{
+  font-weight: 100;
 }
 .flex-container .lowerContent .group .quotePerson{
+  font-size: 34px;
+  color:#1F2937;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 /* Section 4 */
 .flex-container .lowestContent{
 }
 .flex-container .lowestContent .group{
+  background-color:#3882f6;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  margin-right:300px;
+  border-radius: 4px;
 }
 .flex-container .lowestContent .group .left{
-
+  padding-left: 40px;
+  padding-top:30px;
+  padding-bottom: 40px;
 }
 .flex-container .lowestContent .group .right{
+  padding-left: 250px;
+  padding-top: 50px;
 }
 .flex-container .lowestContent .group .right .button {
-}
-.flex-container .lowestContent .group .left .cTA {
   background-color:#3882f6;
+  padding:10px;
+  border-radius:10px;
+  font-size: 14px;
+  font-weight: 600px;
+  color:#E5E7EB;
+  width: 150px;
+  height:50px;
+}
+
+.flex-container .lowestContent .group .left .cTA {
+  
+  padding-left:40px;
+  padding-top:20px;
+  padding-right:20px;
 }
 .flex-container .lowestContent .group .left .cTAtext{
+  padding-left: 40px;
 }
 
 /* Footer */
 .flex-container .footer{
+  background: #1F2937;
+  padding-top:20px;
+  padding-bottom: 20px;
+  display:row;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
